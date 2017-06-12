@@ -1,4 +1,4 @@
-package com.red.innopolis;
+package com.red.innopolis.OldRealization;
 
 import java.util.HashSet;
 import java.util.Random;
@@ -28,6 +28,7 @@ public class PutsThread implements Runnable {
                 System.out.println(test);
                 Thread.sleep(1000);
             }
+
             GetsThread.stopThread = true;
         } catch (InterruptedException e) {
             System.out.println("Producer is interrupted");

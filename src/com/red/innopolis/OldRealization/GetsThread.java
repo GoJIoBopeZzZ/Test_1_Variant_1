@@ -1,10 +1,10 @@
-package com.red.innopolis;
+package com.red.innopolis.OldRealization;
 /**
  * Created by _red_ on 12.06.17.
  */
 public class GetsThread implements Runnable {
 
-    public static volatile boolean stopThread = false;
+    static volatile boolean stopThread = false;
 
     private PutsThread gen;
 
@@ -26,7 +26,7 @@ public class GetsThread implements Runnable {
         }
     }
 
-    public GetsThread(PutsThread gen) {
+    GetsThread(PutsThread gen) {
         this.gen = gen;
     }
 }
