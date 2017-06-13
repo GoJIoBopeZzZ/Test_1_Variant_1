@@ -1,9 +1,7 @@
 package com.red.innopolis;
 
 
-import com.red.innopolis.ProduserConsumerPackage.Consumer;
-import com.red.innopolis.ProduserConsumerPackage.Producer;
-import com.red.innopolis.ProduserConsumerPackage.Resource;
+import com.red.innopolis.ProduserConsumerPackage.*;
 
 public class Main {
 
